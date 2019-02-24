@@ -44,7 +44,7 @@ jekyll-archives:
 # disqus_shortname: nprajilesh
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-135067563-1"
 
 # Category descriptions (for archive pages)
 descriptions:
