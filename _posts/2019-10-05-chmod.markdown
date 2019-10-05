@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Chmod"
-date:   2019-09-05 19:36:00 
+date:   2019-10-05 19:36:00 
 author: Prajilesh
 categories: Tech
 tags:	chmod linux
