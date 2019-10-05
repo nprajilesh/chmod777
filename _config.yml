@@ -11,8 +11,8 @@ exclude:
 # Site settings
 title: chmod777
 subtitle: "A github static page using jekyll"
-email: nprajilesh@gmail.com
-name: Prajilesh N
+email: chmod777@gmail.com
+name: chmod777
 description: >
   A simple yet classy theme for your Jekyll website or blog.
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -41,7 +41,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: nprajilesh
+# disqus_shortname: chmod777
 
 # Google analytics
 ga_tracking_id: "UA-135067563-1"
@@ -65,36 +65,36 @@ descriptions:
 # social:
 #   - name: Twitter                         # Name of the service
 #     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     username: "@chmod777"             # (User) Name to display in the footer link
 #     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
   - name: Twitter
     icon: twitter
-    username: nprajilesh
-    url: https://twitter.com/nprajilesh
+    username: chmod777
+    url: https://twitter.com/chmod777
     desc: Follow me on Twitter
-    share: true
+    share: false
 
   - name: Facebook
     icon: facebook
-    username: nprajilesh
+    username: chmod777
     url:
     desc: Friend me on Facebook
-    share: true
+    share: false
 
   - name: GitHub
     icon: github
-    username: nprajilesh
-    url: https://github.com/nprajilesh
+    username: chmod777-in
+    url: https://github.com/chmod777-in
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: nprajilesh
-    url: https://www.linkedin.com/pub/nprajilesh
+    username: chmod777
+    url: https://www.linkedin.com/pub/chmod777
     desc: Connect with me on LinkedIn
     share: true
 
