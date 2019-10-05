@@ -1,0 +1,91 @@
+---
+layout: post
+title:  "What is Chmod"
+subtitle: "change permissions of a given file according to a certain mode."
+date:   2019-10-05 19:36:00 
+author: Prajilesh
+categories: Tech
+tags:	chmod linux
+---
+
+<p>chmod is a linux command which is the abbreviation of change mode. It is used manually  change the  permission of a file</p>
+<p>a file permmission determines wheter a class <strong>(owner/group/others)</strong> can perform an action <strong>(read/write/execute)</strong></p>
+<p>Different classes </p>
+<ul>
+<li><strong>owner</strong>  determines the user  </li>
+<li><strong>group</strong> determines the group</li>
+<li><strong>others</strong> any user who is not owner and doesn&#39;t belongs to group</li>
+</ul>
+<p>Different Permissions</p>
+<ul>
+       <li><strong>Execute</strong> ability to run the file as an executable program</li>
+        <li><strong>Write</strong> ability to modify the contents of the file</li>
+        <li><strong>Read</strong> ability to open and view the content </li>
+</ul>
+<p>each class has a file permission which can be displayed using numeric notation</p>
+<p>file permissions are defined as follows</p>
+<ul>
+<li><strong>0</strong> – no permission allowed</li>
+<li><strong>1</strong> – can execute</li>
+<li><strong>2</strong> – can write</li>
+<li><strong>4</strong> – can read</li>
+</ul>
+
+<p>we can generate octal numbers for each group as a combination of these file permissions</p>
+
+<style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+    .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+    .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+    .tg .tg-lm6i{font-weight:bold;font-size:11px;border-color:inherit;text-align:center;vertical-align:top}
+    .tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+    .tg .tg-zwlc{background-color:#f9f9f9;font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+    </style>
+    <table class="tg">
+      <tr>
+        <th class="tg-7btt">Notation</th>
+        <th class="tg-lm6i">Permission</th>
+      </tr>
+      <tr>
+        <td class="tg-zwlc">0</td>
+        <td class="tg-zwlc">No Permission</td>
+      </tr>
+      <tr>
+        <td class="tg-7btt">1</td>
+        <td class="tg-7btt">Execute</td>
+      </tr>
+      <tr>
+        <td class="tg-zwlc">2</td>
+        <td class="tg-zwlc">Write</td>
+      </tr>
+      <tr>
+        <td class="tg-7btt">3 (1+2)</td>
+        <td class="tg-7btt">Execute and Write</td>
+      </tr>
+      <tr>
+        <td class="tg-zwlc">4</td>
+        <td class="tg-zwlc">Read</td>
+      </tr>
+      <tr>
+        <td class="tg-7btt"> 5 (1+4)</td>
+        <td class="tg-7btt">Execute and Read</td>
+      </tr>
+      <tr>
+        <td class="tg-zwlc">6 (2+4)</td>
+        <td class="tg-zwlc">Read and Write</td>
+      </tr>
+      <tr>
+        <td class="tg-7btt">7 (1+2+4)</td>
+        <td class="tg-7btt">Read Write and Execute</td>
+      </tr>
+    </table>
+    
+    <p>Examples:</p>
+<ul>
+<li><strong><em>chmod 600</em></strong>  – owner can read and write</li>
+<li><strong><em>chmod 700</em></strong>   – owner can read, write and execute</li>
+<li><strong><em>chmod 666</em></strong>  – all can read and write</li>
+</ul>
+<p>&nbsp;</p>
+<h2 id="what-does-chmod-777-mean-">What Does Chmod 777 Mean?</h2>
+<p>Setting file permission to 777 means any one can do read,write and execute the file. This can be a security risk since anyone who has access to the system can do anything with the file</p>
