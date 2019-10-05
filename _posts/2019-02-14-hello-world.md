@@ -7,6 +7,8 @@ categories: Jekyll
 tags:	jekyll welcome
 cover:  "/assets/instacode.png"
 published: true
+pagination: 
+  enabled: false
 ---
 
 Welcome to chmod777.in
