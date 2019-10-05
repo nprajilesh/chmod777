@@ -6,6 +6,7 @@ author: Prajilesh
 categories: Tech
 tags:	chmod linux
 cover:  "/assets/code.png"
+published: true
 ---
 
 chmod is a linux command which is the abbreviation of change mode. It is used manually  change the  permission of a file

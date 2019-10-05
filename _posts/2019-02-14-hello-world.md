@@ -6,6 +6,7 @@ author: Prajilesh
 categories: Jekyll
 tags:	jekyll welcome
 cover:  "/assets/instacode.png"
+published: true
 ---
 
 Welcome to chmod777.in
